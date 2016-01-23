@@ -1,0 +1,9 @@
+<div class="{{toastClass}} {{toastType}}" ng-click="tapToast()">
+    <div ng-switch on="allowHtml">
+        <div aria-label="{{title}}" class="{{titleClass}}" ng-if="title" ng-switch-default>{{title}}</div>
+        <div aria-label="{{message}}" class="{{messageClass}}" ng-switch-default>{{message}}</div>
+        <div class="{{titleClass}}" ng-bind-html="title" ng-if="title" ng-switch-when="true"></div>
+        <div class="{{messageClass}}" ng-bind-html="message" ng-switch-when="true"></div>
+    </div>
+    <progress-bar ng-if="progressBar"></progress-bar>
+</div>

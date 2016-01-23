@@ -1,0 +1,230 @@
+@mixin ok_icon {
+	font-family: 'OK Icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ok-icon-aadir_destinatario {
+	@include ok_icon();
+	&:before {
+		content: "\e90c";
+	}
+}
+.ok-icon-arrow {
+	@include ok_icon();
+	&:before {
+		content: "\e90e";
+	}
+}
+.ok-icon-arrow_down {
+	@include ok_icon();
+	&:before {
+		content: "\e90d";
+	}
+}
+.ok-icon-ayuda {
+	@include ok_icon();
+	&:before {
+		content: "\e90f";
+	}
+}
+.ok-icon-back {
+	@include ok_icon();
+	&:before {
+		content: "\e910";
+	}
+}
+
+.ok-icon-banco {
+	@include ok_icon();
+	&:before {
+		content: "\e911";
+	}
+}
+.ok-icon-bill10 {
+	@include ok_icon();
+	&:before {
+		content: "\e906";
+	}
+}
+.ok-icon-buscar {
+	@include ok_icon();
+	&:before {
+		content: "\e912";
+	}
+}
+.ok-icon-buy11 {
+	@include ok_icon();
+	&:before {
+		content: "\e909";
+	}
+}
+.ok-icon-cerrar {
+	@include ok_icon();
+	&:before {
+		content: "\e913";
+	}
+}
+.ok-icon-cerrar_sesion {
+	@include ok_icon();
+	&:before {
+		content: "\e914";
+	}
+}
+.ok-icon-concepto {
+	@include ok_icon();
+	&:before {
+		content: "\e916";
+	}
+}
+.ok-icon-condiciones_del_servicio {
+	@include ok_icon();
+	&:before {
+		content: "\e915";
+	}
+}
+.ok-icon-configuracion {
+	@include ok_icon();
+	&:before {
+		content: "\e917";
+	}
+}
+.ok-icon-currency {
+	@include ok_icon();
+	&:before {
+		content: "\e908";
+	}
+}
+.ok-icon-delete_keyboard {
+	@include ok_icon();
+	&:before {
+		content: "\e903";
+	}
+}
+.ok-icon-editar {
+	@include ok_icon();
+	&:before {
+		content: "\e918";
+	}
+}
+.ok-icon-enproceso {
+	@include ok_icon();
+	&:before {
+		content: "\e91a";
+	}
+}
+.ok-icon-iconNIF {
+	@include ok_icon();
+	&:before {
+		content: "\e905";
+	}
+}
+.ok-icon-iconnumerodocumento {
+	@include ok_icon();
+	&:before {
+		content: "\e904";
+	}
+}
+.ok-icon-iconpassword {
+	@include ok_icon();
+	&:before {
+		content: "\e902";
+	}
+}
+.ok-icon-info {
+	@include ok_icon();
+	&:before {
+		content: "\e919";
+	}
+}
+.ok-icon-mail {
+	@include ok_icon();
+	&:before {
+		content: "\e91b";
+	}
+}
+.ok-icon-menu {
+	@include ok_icon();
+	&:before {
+		content: "\e91c";
+	}
+}
+.ok-icon-mi_perfil {
+	@include ok_icon();
+	&:before {
+		content: "\e91d";
+	}
+}
+.ok-icon-movil {
+	@include ok_icon();
+	&:before {
+		content: "\e91e";
+	}
+}
+.ok-icon-password {
+	@include ok_icon();
+	&:before {
+		content: "\e91f";
+	}
+}
+.ok-icon-pregunta {
+	@include ok_icon();
+	&:before {
+		content: "\e920";
+	}
+}
+.ok-icon-recibido {
+	@include ok_icon();
+	&:before {
+		content: "\e921";
+	}
+}
+.ok-icon-user {
+	@include ok_icon();
+	&:before {
+		content: "\e922";
+	}
+}
+.ok-icon-visible {
+	@include ok_icon();
+	&:before {
+		content: "\e907";
+	}
+}
+.ok-icon-wallet {
+	@include ok_icon();
+	&:before {
+		content: "\e900";
+	}
+}
+.ok-icon-backspace1 {
+	@include ok_icon();
+	.path1 {
+		&:before {
+			content: "\e90a";
+			color: rgb(0, 0, 0);
+		}
+	}
+	.path2 {
+		&:before {
+			content: "\e90b";
+			margin-left: -1em;
+			color: rgb(255, 255, 255);
+		}
+	}
+}
+.ok-icon-cancelado {
+    @include ok_icon();
+    &:before {
+        content: "\e901";
+    }
+}
+

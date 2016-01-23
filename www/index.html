@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/app.css" rel="stylesheet">
+</head>
+<body>
+  <ul class="menu">
+    <li><a ui-sref="home">view1</a></li>
+    <li><a ui-sref="about">view2</a></li>
+  </ul>
+
+  <div ui-view></div>
+
+
+  <!-- BOWER COMPONENTS -->
+  <script src="vendor/angular/angular.js"></script>
+  <script src="vendor/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="vendor/angular-animate/angular-animate.min.js"></script>
+  <script src="vendor/angular-toastr/dist/angular-toastr.tpls.js"></script>
+  <script src="vendor/jquery/dist/jquery.min.js"></script>
+  <script src="vendor/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+
+
+  <!-- APP JS -->
+  <script src="app.js"></script>
+
+  <!-- Reusable Blocks/Modules -->
+  <script src="src/blocks/toast/toast.module.js"></script>
+  <script src="src/blocks/toast/toast.config.js"></script>
+  <script src="src/blocks/toast/toast.js"></script>
+
+  <!-- CORE -->
+  <script src="core/core.route.js"></script>
+  <script src="core/states.service.js"></script>
+
+  <!-- OTHER JS --> 
+  <script src="src/others.js"></script>
+  
+  <!-- PAGES -->
+  <script src="src/view1/view1.js"></script>
+  <script src="src/view2/view2.js"></script>
+
+</body>
+</html>

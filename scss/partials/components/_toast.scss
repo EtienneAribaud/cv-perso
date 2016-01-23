@@ -1,0 +1,22 @@
+#toast-container.toast-top-full-width .toast-ok {
+	width: 100%;
+}
+
+#toast-container .toast-ok {
+	box-shadow: none;
+    padding: 20px 30px;
+	text-align: center;
+}
+
+.toast-title {
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 0 20px;
+}
+
+.ok-toast-error {
+	.toast-title {
+		background: url(../img/asapa_mini.png) no-repeat;
+		background-size: 15px;
+	}
+}

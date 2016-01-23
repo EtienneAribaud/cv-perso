@@ -1,0 +1,21 @@
+{
+  "name": "Open Cash Website",
+  "description": "Open Cash website",
+  "version": "0.0.0",
+  "homepage": "http://www.sopra.es",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "angular-loader": "~1.4.0",
+    "angular-mocks": "~1.4.0",
+    "angular-gettext": "~2.1.2",
+    "angular-ui-router": "~0.2.15",
+    "angular-toastr": "~1.6.0",
+    "animate.css": "~3.5.0",
+    "angular-animate": "~1.4.8",
+    "angular-dynamic-locale": "0.1.28",
+    "bootstrap-sass": "~3.3.6"
+  }
+}

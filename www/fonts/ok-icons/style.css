@@ -1,0 +1,135 @@
+@font-face {
+	font-family: 'Ok-Icons';
+	src:url('fonts/ok-icon.eot?6jplne');
+	src:url('fonts/ok-icon.eot?6jplne#iefix') format('embedded-opentype'),
+		url('fonts/ok-icon.ttf?6jplne') format('truetype'),
+		url('fonts/ok-icon.woff?6jplne') format('woff'),
+		url('fonts/ok-icon.svg?6jplne#Ok-Icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="ok-icon-"], [class*=" ok-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'Ok-Icons' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ok-icon-wallet:before {
+	content: "\e900";
+}
+.ok-icon-iconpassword:before {
+	content: "\e902";
+}
+.ok-icon-delete_keyboard:before {
+	content: "\e903";
+}
+.ok-icon-iconnumerodocumento:before {
+	content: "\e904";
+}
+.ok-icon-iconNIF:before {
+	content: "\e905";
+}
+.ok-icon-bill10:before {
+	content: "\e906";
+}
+.ok-icon-visible:before {
+	content: "\e907";
+}
+.ok-icon-currency:before {
+	content: "\e908";
+}
+.ok-icon-buy11:before {
+	content: "\e909";
+}
+.ok-icon-backspace1 .path1:before {
+	content: "\e90a";
+	color: rgb(0, 0, 0);
+}
+.ok-icon-backspace1 .path2:before {
+	content: "\e90b";
+	margin-left: -1.3330078125em;
+	color: rgb(255, 255, 255);
+}
+.ok-icon-aadir_destinatario:before {
+	content: "\e90c";
+}
+.ok-icon-arrow_down:before {
+	content: "\e90d";
+}
+.ok-icon-arrow:before {
+	content: "\e90e";
+}
+.ok-icon-ayuda:before {
+	content: "\e90f";
+}
+.ok-icon-back:before {
+	content: "\e910";
+}
+.ok-icon-banco:before {
+	content: "\e911";
+}
+.ok-icon-buscar:before {
+	content: "\e912";
+}
+.ok-icon-cerrar:before {
+	content: "\e913";
+}
+.ok-icon-cerrar_sesion:before {
+	content: "\e914";
+}
+.ok-icon-condiciones_del_servicio:before {
+	content: "\e915";
+}
+.ok-icon-concepto:before {
+	content: "\e916";
+}
+.ok-icon-configuracion:before {
+	content: "\e917";
+}
+.ok-icon-editar:before {
+	content: "\e918";
+}
+.ok-icon-info:before {
+	content: "\e919";
+}
+.ok-icon-enproceso:before {
+	content: "\e91a";
+}
+.ok-icon-mail:before {
+	content: "\e91b";
+}
+.ok-icon-menu:before {
+	content: "\e91c";
+}
+.ok-icon-mi_perfil:before {
+	content: "\e91d";
+}
+.ok-icon-movil:before {
+	content: "\e91e";
+}
+.ok-icon-password:before {
+	content: "\e91f";
+}
+.ok-icon-pregunta:before {
+	content: "\e920";
+}
+.ok-icon-recibido:before {
+	content: "\e921";
+}
+.ok-icon-user:before {
+	content: "\e922";
+}
+.ok-icon-cancelado:before {
+	content: "\e901";
+}
+

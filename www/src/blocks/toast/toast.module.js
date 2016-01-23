@@ -1,0 +1,7 @@
+(function() {
+
+    'use strict';
+
+    angular.module('blocks.toast',['ngAnimate','toastr']);
+
+})();

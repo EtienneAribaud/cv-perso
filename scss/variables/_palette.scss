@@ -1,0 +1,71 @@
+/**
+*
+* Material design color palettes.
+* @see http://www.google.com/design/spec/style/color.html
+*
+**/
+
+////////  PALETTE GREY  ////////
+
+
+$paletteGrey: #CFCFCF #b9b9b9 #626264 #797979 #454545 #484848 #3b3b3b #3f3f3f #2a3637 #262626 #3a3a3a  #565656 #111111;
+$colorGrey400:  nth($paletteGrey, 1);
+$colorGrey500:  nth($paletteGrey, 2);
+$colorGrey600:  nth($paletteGrey, 3);
+$colorGrey650:  nth($paletteGrey, 4);
+$colorGrey675:  nth($paletteGrey, 5);
+$colorGrey680:  nth($paletteGrey, 6);
+$colorGrey690:  nth($paletteGrey, 7);
+$colorGrey700:  nth($paletteGrey, 8);
+$colorGrey750:  nth($paletteGrey, 9);
+$colorGrey775:  nth($paletteGrey, 10);
+$colorGrey800:  nth($paletteGrey, 11);
+$colorGrey850:  nth($paletteGrey, 12);
+$colorGrey900:  nth($paletteGrey, 13);
+
+////////  PALETTE BLUE  ////////
+$paletteBlue: #00edff #50b7ff #50b6fe #4693c7 #4280ab #004778;
+$colorBlue400: nth($paletteBlue, 1);
+$colorBlue500: nth($paletteBlue, 2);
+$colorBlue525: nth($paletteBlue, 3);
+$colorBlue550: nth($paletteBlue, 4);
+$colorBlue600: nth($paletteBlue, 5);
+$colorBlue700: nth($paletteBlue, 6);
+
+////////  PALETTE GREEN  ////////
+
+$paletteGreen: #00edb7;
+$colorGreen500: nth($paletteGreen, 1);
+
+////////  PALETTE INDIGO  //////
+
+$paletteIndigo: #282135;
+$colorIndigo950:  nth($paletteIndigo, 1);
+
+////////  PALETTE RED  ////////
+
+$paletteRed: #f34141;
+$colorRed500: nth($paletteRed, 1);
+
+////////  PALETTE ORANGE  ////////
+
+$paletteOrange: #fa7400;
+$colorOrange500: nth($paletteOrange, 1);
+
+
+////////  PALETTE LIME  ////////
+
+$paletteLime: #c6a402;
+$colorLime500: nth($paletteLime, 1);
+
+////////  PALETTE BROWN  ////////
+
+$paletteBrown: #79502c;
+$colorBrown500: nth($paletteBrown, 1);
+
+////////  PALETTE BLACK  ////////
+
+$paletteBlack: #2c2c2c #0B0B0B;
+$colorBlack400: nth($paletteBlack, 1);
+$colorBlack500: nth($paletteBlack, 2);
+

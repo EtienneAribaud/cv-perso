@@ -1,0 +1,49 @@
+/* Variables/Colors */
+
+////////  COLORS BASE  ////////
+
+$colorBlack: #000;
+$colorWhite: #fff;
+
+$color-reset: transparent;
+
+$color-red-google: #dd4b39;
+$color-red-google-dark: #be3e2e;
+
+$color-blue-facebook: #4c69ba;
+$color-blue-facebook-dark: #3b55a0;
+$color-blue-facebook-light: #5b7bd5;
+$color-blue-twitter: #55acee;
+$color-blue-twitter-dark: #3b89c3;
+
+///////////////////////////////
+////  VARIABLES TO COLORS  ////
+///////////////////////////////
+
+$color-tabs-selected: $colorBlue400;
+$color-buttons-black: $colorBlack500;
+$color-default-background: $colorBlack400;
+$color-link: $colorGreen500;
+$color-default-text: $colorWhite;
+
+//app colors
+$color-social-google-bg:            $color-red-google;
+$color-social-google-text:          $colorWhite;
+$color-social-google-border:        $color-red-google-dark;
+$color-social-google-active-bg:     $color-red-google-dark;
+$color-social-google-active-border: $color-red-google-dark;
+
+$color-social-facebook-bg:            $color-blue-facebook;
+$color-social-facebook-text:          $colorWhite;
+$color-social-facebook-border:        $color-blue-facebook-dark;
+$color-social-facebook-active-bg:     $color-blue-facebook-dark;
+$color-social-facebook-active-border: $color-blue-facebook-dark;
+
+$color-social-twitter-bg:            $color-blue-twitter;
+$color-social-twitter-text:          $colorWhite;
+$color-social-twitter-border:        $color-blue-twitter-dark;
+$color-social-twitter-active-bg:     $color-blue-twitter-dark;
+$color-social-twitter-active-border: $color-blue-twitter-dark;
+
+$color-footer-bg:                   $colorWhite;
+$color-footer-text:                 $colorGrey500;

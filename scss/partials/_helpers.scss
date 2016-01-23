@@ -1,0 +1,189 @@
+/* Tools/Helpers */
+
+/* ==========  margins  ========== */
+
+.mg-0 {
+    margin: 0 !important;
+}
+
+.mgt-10 {
+    margin-top: 10px !important;
+}
+
+.mgt-20 {
+    margin-top: 20px !important;
+}
+.mgt-30 {
+    margin-top: 30px !important;
+}
+
+.mgt-70 {
+    margin-top: 70px !important;
+}
+
+.mgb-0 {
+    margin-bottom: 0 !important;
+}
+
+.mgb-10 {
+    margin-bottom: 10px !important;
+}
+
+.mgb-20 {
+    margin-bottom: 20px !important;
+}
+
+.mgb-40 {
+    margin-bottom: 40px !important;
+}
+
+.mgl-5 {
+    margin-left: 5px !important;
+}
+
+.mgr-5 {
+    margin-right: 5px !important;
+}
+
+.mgt-25 {
+    margin-top: 25px !important;
+}
+
+.mgt-40 {
+    margin-top: 40px !important;
+}
+
+
+/* ==========  paddings  ========== */
+
+.pd-0 {
+    padding: 0 !important;
+}
+.pdlr-10 {
+    padding: 0 10px !important;
+}
+.pdl-0 {
+    padding-left: 0 !important;
+}
+.pdl-10 {
+    padding-left: 10px !important;
+}
+.pdl-15 {
+    padding-left: 15px !important;
+}
+.pdr-0 {
+    padding-right: 0 !important;
+}
+.pdr-20 {
+    padding-right: 20px !important;
+}
+
+.pdb-0 {
+    padding-bottom: 0 !important;
+}
+.pdb-30 {
+    padding-bottom: 30px !important;
+}
+.pdt-0 {
+    padding-top: 0 !important;
+}
+
+.pdtb-0 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.pdt-0 {
+    padding-top: 0 !important;
+}
+.pdt-10 {
+    padding-top: 10px !important;
+}
+
+.pdl-20 {
+    padding-left: 20px !important;
+}
+
+.pdt-10 {
+    padding-top: 10px;
+}
+
+.pdt-40 {
+    padding-top: 40px;
+}
+
+
+/* ==========  text  ========== */
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+
+/* ==========  cursor  ========== */
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.cursor-not-allowed {
+    cursor: not-allowed;
+}
+
+
+/* ==========  widths  ========== */
+
+.w-5 {
+    width: 5% !important;
+}
+
+.w-10 {
+    width: 10% !important;
+}
+
+
+/* ==========  borders  ========== */
+
+.border-none {
+    border: 0 !important;
+}
+
+
+/* ==========  others  ========== */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.hidden {
+    display:none;
+}
+
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-container {
+    &:after{
+        clear: both;
+        content: "";
+        display: block;
+    }
+}
+
+.inherit {
+    display: inherit;
+}
